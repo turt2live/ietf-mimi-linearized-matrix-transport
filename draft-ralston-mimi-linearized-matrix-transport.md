@@ -19,11 +19,11 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "Linearized Matrix - Transport"
+abbrev: "LM Transport"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-ralston-mimi-linearized-matrix-transport-latest
 submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
 number:
 date:
@@ -32,9 +32,13 @@ v: 3
 area: AREA
 workgroup: WG Working Group
 keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
+ - mimi
+ - matrix
+ - linearized
+ - interoperability
+ - messaging
+ - decentralized
+ - transport
 venue:
   group: WG
   type: Working Group
@@ -45,9 +49,9 @@ venue:
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Travis Ralston
+    organization: The Matrix.org Foundation C.I.C.
+    email: travisr@matrix.org
 
 normative:
 
@@ -56,19 +60,23 @@ informative:
 
 --- abstract
 
-TODO Abstract
+This document describes the transport protocol for Linearized Matrix.
 
 
 --- middle
 
 # Introduction
 
-TODO Introduction
+Linearized Matrix {{!I-D.ralston-mimi-linearized-matrix}} describes the access control semantics for
+a messaging protocol using MLS. This document describes how servers and clients interact with each other
+to ensure messages are delivered.
 
 
 # Conventions and Definitions
 
 {::boilerplate bcp14-tagged}
+
+This document makes use of {{!I-D.ralston-mimi-terminology}}.
 
 
 # Security Considerations
