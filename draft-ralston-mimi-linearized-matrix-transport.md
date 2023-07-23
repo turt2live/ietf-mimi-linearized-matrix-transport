@@ -9,8 +9,8 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Applications and Real-Time"
+workgroup: "More Instant Messaging Interoperability"
 keyword:
  - mimi
  - matrix
@@ -20,12 +20,12 @@ keyword:
  - decentralized
  - transport
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "More Instant Messaging Interoperability"
+  type: "Working Group"
+  mail: "mimi@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/mimi/"
+  github: "turt2live/ietf-mimi-linearized-matrix-transport"
+  latest: "https://turt2live.github.io/ietf-mimi-linearized-matrix-transport/draft-ralston-mimi-linearized-matrix-transport.html"
 
 author:
  -
